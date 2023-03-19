@@ -1,0 +1,135 @@
+
+.navbar {
+  background-color: #272b44;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.nav-item .nav-link a:hover{
+  color: #08d565;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.nav-item .nav-link:hover{
+  color: #08d565;
+}
+
+body {
+  background-color: #1f2236;
+}
+
+input,
+textarea,
+.card-text {
+  background-color: #1f2236;
+}
+
+.view-cars {
+  color: #fff;
+  border: 1px solid #08d565;
+  transition: all .3s ease;
+  font-weight: 600;
+}
+
+.view-cars:hover {
+  color: #08d565;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+/* Set Jumbotron component styles */
+.jumbotron {
+  background-image: url('images/pexels-leif-bergerson-9764731.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.jumbotron .container{
+  padding: 50px 0;
+}
+
+/* Set Services section component styles */
+.py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  display: flex;
+  align-items: center;
+}
+
+.our-services {
+  background-color: #091a2b !important;
+}
+
+.card-text.font-weight-bold {
+  color: #08d565;
+}
+
+.card-text {
+  color: black;
+}
+
+.card-text p {
+  color: #fff;
+}
+
+.card-body {
+  background-color: #1f2236;
+  border: 1px solid #1f2236;
+}
+
+section {
+  background-color: #111428;
+}
+
+body p {
+  color: #fff;
+}
+
+
+body h3 {
+  color: #08d565;
+}
+
+.img-fluid {
+  width: 80%;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.border {
+  color: #1f2236;
+}
+
+.form-group .form-control{
+  background-color: #1f2236;
+  border: 1px solid #1f2236;
+}
+
+.form-group .form-control:focus{
+  background-color: #1f2236;
+  border: 1px solid #1f2236;
+}
+
+form .submit-btn{
+  background-color: #08d565;
+  color: #fff;
+}
+
+@media only screen and (max-width: 300px){
+  nav .navbar-brand{
+    display: none;
+  }
+}
