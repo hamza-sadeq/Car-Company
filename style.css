@@ -129,7 +129,7 @@ form .submit-btn{
 }
 
 @media only screen and (max-width: 768px){
-  .icon-img{
+  nav .navbar-brand{
     display: none;
   }
 }
