@@ -128,8 +128,8 @@ form .submit-btn{
   color: #fff;
 }
 
-@media only screen and (max-width: 300px){
-  nav .navbar-brand{
+@media only screen and (max-width: 768px){
+  .icon-img{
     display: none;
   }
 }
